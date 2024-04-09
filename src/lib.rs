@@ -3,7 +3,7 @@ pub mod sigscan;
 use std::cell::RefCell;
 
 use self::sigscan::Scanner;
-use meowtonin::byond_fn;
+use byond_fn::byond_fn;
 
 fn from_signature(s: String) -> Vec<Option<u8>> {
 	s.trim()

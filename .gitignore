@@ -1,0 +1,7 @@
+/target
+/Cargo.lock
+
+sigview/*
+!sigview/sigview.dm
+!sigview/sigview.dme
+!sigview/sigs.txt
